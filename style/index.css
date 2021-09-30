@@ -16,18 +16,52 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        max-width: 100%;
-        border: 1px solid grey;
-    }
-    /* General Styles */
-    html{
-        font-size: 62.5%;
-    }
-    body{
-        font-size: 1.6rem;
-        line-height: 1.5;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    border: 1px solid grey;
+}
+/* General Styles */
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: rgb(148, 148, 7);
+}
+h1, h2, h3{
+font-family:  'Ma Shan Zheng', cursive;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(148, 148, 7);
+	border: 1px solid black;
+	color: black;
+}
+a:hover{
+	-webkit-box-shadow: 5px 5px 15px 5px #000000; 
+	box-shadow: 5px 5px 15px 5px #000000;
+	background: black;
+	color: white;
+}
+/* header */
+header{
+    display: flex;   
+    background-color:rgb(85, 38, 7);
+}
+h1{
+    width: 50%;
+    font-size: 3.5rem;
+}
+nav{
+    display: flex; 
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+   width
+}
