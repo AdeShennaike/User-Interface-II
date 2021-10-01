@@ -21,7 +21,7 @@ footer, header, hgroup, menu, nav, section {
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 /* General Styles */
 html{
@@ -31,6 +31,9 @@ body{
     font-size: 1.6rem;
     line-height: 1.5;
     color: rgb(148, 148, 7);
+    background-image: url(/images/1007550.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 h1, h2, h3{
 font-family:  'Ma Shan Zheng', cursive;
@@ -63,5 +66,47 @@ nav{
     align-items: center;
 }
 nav a{
-   width
+   width: 8%;
+   text-align: center;
+}
+.top-section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.top-section div{
+    background-image: url(/images/ds9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:50vh;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-section a{
+    width: 10%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+}
+h2{
+    font-size: 4.5rem;
+}
+.images{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    justify-content: center;
+    justify-content: space-between;
+}
+.images div{
+    width: 30%;
+    text-align: center;
+    font-size: 2rem;
+}
+.images img{
+    width: 100%;
+    height: 80%;
 }
