@@ -170,3 +170,66 @@ footer{
 footer a{
     width: 5%;
 }
+
+/* Media Queries */
+
+@media(max-width:800px){
+    
+/* Header */
+
+header{
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+}
+h1, nav{
+    width: 100%;
+    text-align: center;
+}
+header nav {
+    justify-content: center;
+    flex-direction: column;
+}
+header nav a{
+    width: 12%;
+}
+/* Top Section */
+
+.top-section div{
+    width: 90%;
+    height: 35vh;
+    margin-bottom: 4%;
+}
+.top-section h2{
+    width: 40%;
+}
+.top-section a{
+    width: 17%;
+    padding: .5% 2%;
+}
+
+/* Image Section */
+
+.images{
+    justify-content: space-around;
+}
+
+.images img{
+    height: 24vh;
+}
+
+.images div{
+    width: 40%;
+    padding: 0%;
+}
+
+/* footer */
+
+footer a{
+    width: 15%;
+    padding: 1% 2%;
+}
+}
+
+/* @media(max-width:500px){
+
+} */
